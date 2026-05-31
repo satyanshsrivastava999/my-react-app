@@ -1,20 +1,23 @@
 function App() {
   return (
     <>
-      <h1>Multimedia Website</h1>
+      <h1>YouTube Learning Hub</h1>
 
-      <img
-        src="https://images.pexels.com/photos/36578421/pexels-photo-36578421.jpeg"
+      <iframe
         width="400"
-      />
+        height="250"
+        src="https://www.youtube.com/embed/KWnmLK69EII"
+        allowFullScreen
+      ></iframe>
 
-      <audio controls>
-        <source src="" type="audio/mp3" />
-      </audio>
+      <br />
 
-      <video controls width="400">
-        <source src="" type="video/mp4" />
-      </video>
+      <iframe
+        width="400"
+        height="250"
+        src="https://www.youtube.com/embed/WBqYqgs3hOg"
+        allowFullScreen
+      ></iframe>
     </>
   );
 }
