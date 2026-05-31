@@ -1,11 +1,15 @@
-function Student(props) {
+import Student from "./Student";
+
+function App() {
   return (
-    <div>
-      <h2>Name: {props.name}</h2>
-      <p>Course: {props.course}</p>
-      <p>Marks: {props.marks}</p>
-    </div>
+    <>
+      <h1>Student Information System</h1>
+
+      <Student name="Rohit" course="B.Tech" marks="90" />
+      <Student name="Mohit" course="M.Tech" marks="95" />
+      <Student name="Raj" course="MCA" marks="98" />
+    </>
   );
 }
 
-export default Student;
+export default App;
