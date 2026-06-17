@@ -1,0 +1,1 @@
+export default function Notes(){ return <h2>Notes App</h2>; }
