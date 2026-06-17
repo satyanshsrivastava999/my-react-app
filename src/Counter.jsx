@@ -1,0 +1,1 @@
+import {useState} from 'react'; export default function Counter(){ const [c,setC]=useState(0); return <div><h2>{c}</h2><button onClick={()=>setC(c+1)}>+</button></div>; }
