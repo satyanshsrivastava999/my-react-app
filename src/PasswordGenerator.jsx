@@ -1,0 +1,1 @@
+export default function PasswordGenerator(){ return <h2>Password Generator</h2>; }
