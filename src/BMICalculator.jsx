@@ -1,0 +1,1 @@
+export default function BMICalculator(){ return <h2>BMI Calculator</h2>; }
