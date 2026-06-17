@@ -1,0 +1,1 @@
+import {useState} from 'react'; export default function ThemeToggle(){ const [d,setD]=useState(false); return <button onClick={()=>setD(!d)}>{d?'Light':'Dark'}</button>; }
